@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+p strong {
+    background-color: orange;
+    color: white;
+    font-style: italic;
+}
+
+strong {
+    color: green;
+}
+
+.different-paragraph {
+    color: salmon;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.different-paragraph em {
+    color: red;
+    text-transform: uppercase;
+}
