@@ -1,6 +1,12 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+/* body {
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 h1 {
     font-size: 50px;
@@ -11,22 +17,22 @@ h2 {
     font-size: 20px;
 }
 
-p {
-    font-size: 17px;
-    line-height: 24px;
-}
+/* p {
+    font-size: 16px;
+    line-height: 2px;
+} */
 
-p strong {
+/* p strong {
     background-color: orange;
     color: white;
     font-style: italic;
-}
+} */
 
 strong {
     color: green;
 }
 
-.different-paragraph {
+/* .different-paragraph {
     color: salmon;
     font-size: 30px;
     line-height: 37px;
@@ -35,4 +41,30 @@ strong {
 .different-paragraph em {
     color: red;
     text-transform: uppercase;
+} */
+
+body div {
+    text-align: justify;
+    font-size: 32px;
+    margin-top: 40px;
+    margin-right: 1000px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
 }

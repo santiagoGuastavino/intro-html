@@ -8,3 +8,6 @@ app.listen(3000, () => console.log('Server running'));
 
 const homePath = path.resolve('./views/index.html');
 app.get('/', (req,res) => res.sendFile(homePath));
+
+const showcasePath = path.resolve('./views/showcase.html');
+app.get('/showcase', (req,res) => res.sendFile(showcasePath));
