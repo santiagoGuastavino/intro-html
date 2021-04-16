@@ -1,49 +1,6 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    }
-
-/* body {
-    font-family: 'Roboto', sans-serif;
-} */
-
-h1 {
-    font-size: 50px;
-    font-weight: 100;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-/* p {
-    font-size: 16px;
-    line-height: 2px;
-} */
-
-/* p strong {
-    background-color: orange;
-    color: white;
-    font-style: italic;
-} */
-
-strong {
-    color: green;
-}
-
-/* .different-paragraph {
-    color: salmon;
-    font-size: 30px;
-    line-height: 37px;
-}
-
-.different-paragraph em {
-    color: red;
-    text-transform: uppercase;
-} */
-
-body div {
+/* ======================================= */
+/* ESTO LO USÉ PARA EL SHOWCASE: */
+/* body div {
     text-align: justify;
     font-size: 32px;
     margin-top: 40px;
@@ -67,4 +24,160 @@ body div {
 
 .bold {
     font-weight: 700;
+} */
+
+/* ======================================= */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: pink;
+}
+
+/* .oculto {
+    display: none;
+} */
+
+
+/* h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2px;
+}
+
+p strong {
+    background-color: orange;
+    color: white;
+    font-style: italic;
+}
+
+strong {
+    color: green;
+}
+
+.different-paragraph {
+    color: salmon;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.different-paragraph em {
+    color: red;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+} */
+
+/* .contenedor01 {
+    width: 70%;
+    max-width: 900;
+    padding: 20px;
+    border: solid 5px black;
+    background-color: salmon;
+    margin: auto;
+}
+
+@media (min-width: 570px) {
+    .contenedor01 {
+        width: 90%;
+        border: solid 5px salmon;
+        background-color: black;
+        color: white;
+    }
+}
+
+@media (min-width: 900px) {
+    .contenedor01 {
+        color: red;
+    }
+    .oculto {
+        display: block;
+    }
+} */
+
+/* .contenedor02 {
+    width: 90vw;
+    padding: 20px;
+    border: solid 5px red;
+    background-color: green;
+} */
+
+/* .contenedor03 {
+    width: 80%;
+    padding: 15px;
+    margin: 5px;
+} */
+
+/* STANDARD BRAKE POINTS P/ MEDIA QUERY
+    576
+    768
+    992
+    1200
+*/
+
+.contenedor101 {
+    width: 90%;
+}
+
+.contenedor102 {
+    width: 50%;
+}
+
+@media (min-width: 576px) {
+    body {
+        background-color: yellow;
+    }
+    .contenedor101 {
+        width: 70%;
+        margin: auto;
+    }
+    .contenedor102 {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background: none;
+    }
+    .contenedor101 {
+        background-color: blue;
+    }
+    .contenedor102 {
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 992px) {
+    .contenedor101 {
+        border: solid 10px yellow;
+    }
+    .contenedor102 {
+        border: solid 10px blue;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenedor101 {
+        max-width: 1100px;
+    }
+    .contenedor102 {
+        max-width: 1100px;
+    }
 }
