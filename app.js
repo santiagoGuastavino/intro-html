@@ -6,7 +6,7 @@ const publicPath = path.resolve('./public');
 app.use(express.static(publicPath));
 app.listen(3000, () => console.log('Server running'));
 
-const homePath = path.resolve('./views/index.html');
+const homePath = path.resolve('./views/prueba.html');
 app.get('/', (req,res) => res.sendFile(homePath));
 
 const showcasePath = path.resolve('./views/showcase.html');

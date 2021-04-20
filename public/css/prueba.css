@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+.main {
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.imagen {
+    border: 2px solid green;
+}
+
+.left-navbar {
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* widt */
+}
+
+.right-navbar {
+    border: 2px solid yellow;
+}
+
+/* header ul {
+    height: 200px;
+} */
+
+header ul li {
+    display: inline-block;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+}
