@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+<body>
+    
+    <form action="" method="">
+
+        <div>
+            <label for="nombreUsuario">Nombre completo</label>
+            <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Juan Manuel Pérez">
+        </div>
+
+        <div>
+            <label for="passwordUsuario">Contraseña</label>
+            <input type="password" name="passwordUsuario" id="passwordUsuario" required>
+        </div>
+
+        <div>
+            <label for="emailUsuario">Correo electrónico</label>
+            <input type="email" name="emailUsuario" id="emailUsuario">
+        </div>
+        
+        <div>
+            <label for="paisOrigen">Origen</label>
+            <select name="paisOrigen" id="paisOrigen" required>
+                <option value="" disabled selected>País de origen</option>
+                <optgroup label="Latinoamerica">
+                    <option value="arg">Argentina</option>
+                    <option value="br">Brasil</option>
+                    <option value="ven">Venezuela</option>
+                    <option value="ur">Uruguay</option>
+                    <option value="chi">Chile</option>
+                    <option value="per">Perú</option>
+                    <option value="bol">Bolivia</option>
+                    <option value="par">Paraguay</option>
+                </optgroup>
+                <optgroup label=Europa>
+                    <option value="esp">España</option>
+                    <option value="por">Portugal</option>
+                    <option value="fr">Francia</option>
+                    <option value="ale">Alemania</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div>
+            <label for="comentario">Deje su comentario:</label>
+            <textarea name="comentario" id="comentario"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </div>
+
+        <div>
+            <input type="button" value="ENVIAR CON INPUT">
+        </div>
+
+
+    </form>
+
+
+
+
+
+</body>
+</html>

@@ -39,12 +39,12 @@ body {
     background-color: pink;
 }
 
-/* .oculto {
+.oculto {
     display: none;
-} */
+}
 
 
-/* h1 {
+h1 {
     font-size: 50px;
     font-weight: 100;
 }
@@ -81,9 +81,9 @@ strong {
 
 img {
     width: 100%;
-} */
+}
 
-/* .contenedor01 {
+.contenedor01 {
     width: 70%;
     max-width: 900;
     padding: 20px;
@@ -110,18 +110,18 @@ img {
     }
 } */
 
-/* .contenedor02 {
+.contenedor02 {
     width: 90vw;
     padding: 20px;
     border: solid 5px red;
     background-color: green;
-} */
+}
 
-/* .contenedor03 {
+.contenedor03 {
     width: 80%;
     padding: 15px;
     margin: 5px;
-} */
+}
 
 /* STANDARD BRAKE POINTS P/ MEDIA QUERY
     576
