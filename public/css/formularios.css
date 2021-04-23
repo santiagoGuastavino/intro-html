@@ -3,3 +3,33 @@
     padding: 0;
     margin: 0;
 }
+
+form div {
+    height: 50px;
+    margin: 20px 5px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 3px lightblue solid;
+}
+
+h2::before {
+    content: "soy un ::before";
+    border: 2px red dotted;
+    margin-right: 30px;
+}
+
+h2::after {
+    content: "soy un ::after";
+    border: 2px blue double;
+    margin-left: 30px;
+}

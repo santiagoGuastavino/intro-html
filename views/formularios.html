@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
-    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/formularios.css">
 </head>
 <body>
     
+    <div class="titulo">
+        <h2>A continuación, un formulario</h2>
+    </div>
+
     <form action="" method="">
 
         <div>
@@ -24,6 +28,24 @@
         <div>
             <label for="emailUsuario">Correo electrónico</label>
             <input type="email" name="emailUsuario" id="emailUsuario">
+        </div>
+
+        <div>
+            <label for="fechaDeNacimiento">Fecha de nacimiento</label>
+            <input type="date" name="fechaDeNacimiento" id="fechaDeNacimiento" value="1992-06-27">
+        </div>
+
+        <div>
+            <label>Insterte aquí su foto de perfil</label>
+            <input type="file" name="fotoPerfil">
+        </div>
+
+        <label>Select pastimes:</label>
+        <div class="checkbox">
+                <label><input type="checkbox" name="pastime" value="gaming">Gaming</label>
+                <label><input type="checkbox" name="pastime" value="hike">Hiking</label>
+                <label><input type="checkbox" name="pastime" value="guitar">Playing guitar</label>
+                <label><input type="checkbox" name="pastime" value="language">Study languages</label>
         </div>
         
         <div>
@@ -52,6 +74,11 @@
         <div>
             <label for="comentario">Deje su comentario:</label>
             <textarea name="comentario" id="comentario"></textarea>
+        </div>
+
+        <div>
+            <label><input type="radio" name="terminos" value="acepto">Acepto</label>
+            <label><input type="radio" name="terminos" value="noAcepto">No acepto</label>
         </div>
 
         <div>
